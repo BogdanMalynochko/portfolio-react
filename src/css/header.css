@@ -1,0 +1,19 @@
+header {
+    @apply py-7 flex justify-between items-center text-white font-bold;
+
+    .header--wrapper {
+        @apply flex justify-end items-center gap-9;
+    }
+
+    .header--link {
+        @apply hover:underline;
+    }
+
+    .header--logo {
+        @apply text-2xl relative duration-200 hover:scale-105 hover:duration-200;
+
+        span {
+            @apply text-green absolute;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+h1 {
+    @apply !text-[65px];
+}
+
+h2 {
+    @apply !text-5xl !leading-[56px];
+}
+
+h3 {
+    @apply !text-2xl;
+}
+
+h4 {
+    @apply !text-xl;
+}
+
+h1,
+h2,
+h3,
+h4,
+span {
+    @apply text-white !font-bold;
+
+    &.green {
+        @apply text-green;
+    }
+
+    &.white {
+        @apply text-white;
+    }
+}
+
+p {
+    @apply text-smoke text-base;
+}

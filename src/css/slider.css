@@ -1,0 +1,18 @@
+.slick-slider {
+    .slick-next,
+    .slick-prev {
+        @apply z-50 before:text-3xl;
+    }
+
+    .slick-next {
+        @apply right-36 before:content-['→'];
+    }
+
+    .slick-prev {
+        @apply left-36 before:content-['←'];
+    }
+
+    .slick-dots {
+        @apply hidden;
+    }
+}

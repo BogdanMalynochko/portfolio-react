@@ -1,0 +1,15 @@
+* {
+    @apply m-0 p-0 font-main box-border;
+}
+
+body {
+    @apply bg-dark;
+}
+
+.line {
+    @apply bg-green h-[2px] w-12;
+}
+
+.overlay {
+    @apply absolute inset-0 bg-black opacity-40;
+}

@@ -1,0 +1,11 @@
+.btn {
+    @apply bg-green text-white font-bold py-3 px-5 duration-200 hover:bg-white hover:text-green hover:duration-200;
+
+    &.flex-btn {
+        @apply flex items-center w-max gap-2;
+    }
+
+    &.project-btn {
+        @apply w-max text-green bg-inherit p-0 flex items-center gap-2 hover:underline;
+    }
+}
